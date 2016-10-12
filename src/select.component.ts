@@ -1,7 +1,7 @@
 import {Component, Input, OnChanges, OnInit, Output, EventEmitter, ExistingProvider, ViewChild, ViewEncapsulation, forwardRef} from '@angular/core';
 import {NG_VALUE_ACCESSOR, ControlValueAccessor} from '@angular/forms';
 
-import {DEFAULT_STYLES} from './style';
+import './style.scss';
 import {SelectDropdownComponent} from './select-dropdown.component';
 
 export const SELECT_VALUE_ACCESSOR: ExistingProvider = { provide: NG_VALUE_ACCESSOR,
